@@ -1,6 +1,11 @@
 
 import React from "react"
 import { AnimalCard } from "./animal/AnimalCard"
+import { CustomerCard } from "./customers/CustomersCard.js"
+import { EmployeeCard } from "./customers/CustomersCard.js"
+import { LocationCard } from "./locations/locationsCard.js"
+
+
 import "./animal/Animal.css"
 import { PropsAndState } from "./PropsAndState"
 
