@@ -3,8 +3,36 @@
     "animals": [
         {
             "id": 1,
-            "name": "Doodles",
+             "name": "Doodles",
             "breed": "Poodle",
+            "customerId": 1,
+            "locationId": 1
+        },
+        {
+            "id": 1,
+             "name": "Bingo",
+            "breed": "Doggie",
+            "customerId": 4,
+            "locationId": 2
+        },
+        {
+            "id": 1,
+             "name": "MCGruff",
+            "breed": "Crime Dog",
+            "customerId": 2,
+            "locationId": 1
+        },
+        {
+            "id": 1,
+             "name": "Otis",
+            "breed": "Pug",
+            "customerId": 3,
+            "locationId": 1
+        },
+        {
+            "id": 1,
+             "name": "Al Gore",
+            "breed": "Mandogpig ",
             "customerId": 1,
             "locationId": 2
         }
@@ -14,9 +42,40 @@
             "id": 1,
             "name": "Hannah Hall",
             "address": "7002 Chestnut Ct"
+        },
+        {
+            "id": 2,
+            "name": "Tinker Bell",
+            "address": "7002 Chestnut Ct"
+        },
+        {
+            "id": 3,
+            "name": "Raoul Duke",
+            "address": "7002 Chestnut Ct"
+        },
+        {
+            "id": 4,
+            "name": "Santa Clause",
+            "address": "7002 Chestnut Ct"
         }
     ],
-    "employees": [],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Jisie David",
+            "jobtitle": "employee"
+        },
+        {
+            "id": 2,
+            "name": "Scott Silver",
+            "jobtitle": "employee"
+        },
+        {
+            "id": 3,
+            "name": "Aja Washington",
+            "jobtitle": "employee"
+        }
+    ],
     "locations": [
         {
             "id": 1,

@@ -14,6 +14,7 @@
    return (
      <>
        <h3>Welcome, {yourName} </h3>
+       <h4>Customer Number:</h4>
        <p>{countClicks}</p>
        <button onClick={(handleClick)}>Click Me</button>
      </>
