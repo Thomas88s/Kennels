@@ -27,5 +27,22 @@ export const Kennel = () => (
             <AnimalCard />
             <AnimalCard />
         </article>
+        <article className="animals">
+            <CustomerCard />
+            <CustomerCard />
+            <CustomerCard />
+        </article>
+        <article className="animals">
+            <EmployeeCard />
+            <EmployeeCard />
+            <EmployeeCard />
+        </article>
+        <article className="animals">
+            <LocationCard />
+            <LocationCard />
+            <LocationCard />
+        </article>
+
+
     </>
 )
