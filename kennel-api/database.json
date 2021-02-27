@@ -11,7 +11,7 @@
         {
             "id": 1,
              "name": "Bingo",
-            "breed": "Doggie",
+            "breed": "Farm Dog",
             "customerId": 4,
             "locationId": 2
         },
@@ -63,17 +63,26 @@
         {
             "id": 1,
             "name": "Jisie David",
-            "jobtitle": "employee"
+            "jobtitle": "employee",
+            "locationId": 1
         },
         {
             "id": 2,
             "name": "Scott Silver",
-            "jobtitle": "employee"
+            "jobtitle": "employee",
+            "locationId": 1
         },
         {
             "id": 3,
+            "name": "Snoop Dogg",
+            "jobtitle": "employee",
+            "locationId": 2
+        },
+        {
+            "id": 4,
             "name": "Aja Washington",
-            "jobtitle": "employee"
+            "jobtitle": "employee",
+            "locationId": 2
         }
     ],
     "locations": [
