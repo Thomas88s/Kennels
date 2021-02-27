@@ -9,28 +9,28 @@
             "locationId": 1
         },
         {
-            "id": 1,
+            "id": 2,
              "name": "Bingo",
             "breed": "Farm Dog",
             "customerId": 4,
             "locationId": 2
         },
         {
-            "id": 1,
+            "id": 3,
              "name": "MCGruff",
             "breed": "Crime Dog",
             "customerId": 2,
             "locationId": 1
         },
         {
-            "id": 1,
+            "id": 4,
              "name": "Otis",
             "breed": "Pug",
             "customerId": 3,
             "locationId": 1
         },
         {
-            "id": 1,
+            "id": 5,
              "name": "Al Gore",
             "breed": "Mandogpig ",
             "customerId": 1,
@@ -63,7 +63,7 @@
         {
             "id": 1,
             "name": "Jisie David",
-            "jobtitle": "employee",
+            "jobtitle": "Manager",
             "locationId": 1
         },
         {
@@ -75,7 +75,7 @@
         {
             "id": 3,
             "name": "Snoop Dogg",
-            "jobtitle": "employee",
+            "jobtitle": "Manager",
             "locationId": 2
         },
         {
