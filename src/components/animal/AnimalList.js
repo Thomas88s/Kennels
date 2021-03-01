@@ -1,4 +1,5 @@
 import React, { useContext, useEffect } from "react"
+import { useHistory } from "react-router-dom"
 import { AnimalContext } from "./AnimalProvider"
 import { LocationContext } from "../locations/LocationProvider"
 import { CustomerContext } from "../customers/CustomerProvider"
@@ -11,6 +12,8 @@ export const AnimalList = () => {
   const { locations, getLocations } = useContext(LocationContext)
   const { customers, getCustomers } = useContext(CustomerContext)
 
+  const history = useHistory()
+
   //useEffect - reach out to the world for something
   useEffect(() => {
     console.log("AnimalList: useEffect - getAnimals")
@@ -20,13 +23,11 @@ export const AnimalList = () => {
   }, [])
 
 
-
-
-
-
   return (
     <div className="animals">
-      {console.log("AnimalList: Render", animals)}
+      	      <button onClick={() => {history.push("/animals/create")}}>
+            Add Animal
+          </button>
       {
         animals.map(animal => {
           const owner = customers.find(c => c.id === animal.customerId)
@@ -37,7 +38,7 @@ export const AnimalList = () => {
                       customer={owner}
                       animal={animal} />
       })
-     })
+     }
       
   </div>
   )
