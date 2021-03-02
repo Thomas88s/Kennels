@@ -7,9 +7,9 @@ import "./Customer.css"
 
 
 export const CustomerForm = () => {
-    const { addCustomer } = useContext(AnimalContext)
+    const { addCustomer } = useContext(CustomerContext)
     const { locations, getLocations } = useContext(LocationContext)
-    const { animals, getAnimals } = useContext(CustomerContext)
+    const { animals, getAnimals } = useContext(AnimalContext)
 
     /*
     With React, we do not target the DOM with `document.querySelector()`. Instead, our return (render) reacts to state or props.
@@ -31,7 +31,7 @@ export const CustomerForm = () => {
     and locations state on initialization, so we can provide their data in the form dropdowns
     */
     useEffect(() => {
-      getAnimals().then(getLocations)
+      getLocations().then(getAnimals)
     }, [])
 
     //when a field changes, update state. The return will re-render and display based on the values in state
@@ -58,7 +58,7 @@ export const CustomerForm = () => {
       event.preventDefault() //Prevents the browser from submitting the form
 
       const locationId = customer.locationId
-      const animalId = customer.customerId
+      const animalId = customer.animalId
 
       if (locationId === 0 || animalId === 0) {
         window.alert("Please select a location and a customer")
@@ -72,7 +72,7 @@ export const CustomerForm = () => {
 
     return (
       <form className="customerForm">
-          <h2 className="customerForm__title">New Animal</h2>
+          <h2 className="customerForm__title">New Customer</h2>
           <fieldset>
               <div className="form-group">
                   <label htmlFor="name">Customer name:</label>

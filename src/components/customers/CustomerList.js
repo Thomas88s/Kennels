@@ -30,7 +30,7 @@ export const CustomerList = () => {
           </button>
       {
         customers.map(customer => {
-          const pet = animals.find(a => a.id === customer.Id)
+          const pet = animals.find(a => a.id === customer.animalId)
           const clinic = locations.find(l => l.id === customer.locationId)
 
 
