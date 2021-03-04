@@ -5,7 +5,17 @@
       "name": "Doodles",
       "breed": "Poodle",
       "customerId": 1,
-      "locationId": 2
+      "locationId": 2,
+      "treatment": "bath",
+      "location": {
+        "id": 2,
+        "name": "Nashville South",
+      },
+      "customer": {
+        "id": 2,
+        "name": "Nashville South",
+        "address": "209 Emory Drive"
+      }
     },
     {
       "id": 2,
