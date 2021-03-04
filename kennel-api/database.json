@@ -1,17 +1,17 @@
 {
   "animals": [
-  {
-    "id": 1,
-    "name": "Doodles",
-    "breed": "Poodle",
-    "customerId": 1,
-    "locationId": 2,
-    "treatment": "bath",
-    "location": {
-      "id": 2,
-      "name": "Nashville South"
-    }
-  },
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 2,
+      "treatment": "bath",
+      "location": {
+        "id": 2,
+        "name": "Nashville South"
+      }
+    },
     {
       "id": 2,
       "name": "Bingo",
