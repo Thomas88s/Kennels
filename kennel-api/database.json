@@ -1,22 +1,17 @@
 {
   "animals": [
-    {
-      "id": 1,
-      "name": "Doodles",
-      "breed": "Poodle",
-      "customerId": 1,
-      "locationId": 2,
-      "treatment": "bath",
-      "location": {
-        "id": 2,
-        "name": "Nashville South",
-      },
-      "customer": {
-        "id": 2,
-        "name": "Nashville South",
-        "address": "209 Emory Drive"
-      }
-    },
+  {
+    "id": 1,
+    "name": "Doodles",
+    "breed": "Poodle",
+    "customerId": 1,
+    "locationId": 2,
+    "treatment": "bath",
+    "location": {
+      "id": 2,
+      "name": "Nashville South"
+    }
+  },
     {
       "id": 2,
       "name": "Bingo",
@@ -77,14 +72,6 @@
       "name": "Santa Clause",
       "address": "7002 Chestnut Ct",
       "locationId": 2
-    },
-    {
-      "name": "Thomas witherow",
-      "address": "",
-      "locationId": 1,
-      "customerId": 0,
-      "animalId": 4,
-      "id": 5
     }
   ],
   "employees": [
