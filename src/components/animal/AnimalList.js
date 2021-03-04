@@ -25,9 +25,10 @@ export const AnimalList = () => {
 
   return (
     <div className="animals">
-      	      <button onClick={() => {history.push("/animals/create")}}>
+      	      <button id="animalButton" onClick={() => {history.push("/animals/create")}}>
             Add Animal
           </button>
+        
       {
         animals.map(animal => {
           const owner = customers.find(c => c.id === animal.customerId)
